@@ -7,6 +7,7 @@
 
 void setup() {
   Serial.println("Setup start.. ");
+  Serial.begin(115200);
 
 }
 
