@@ -4,6 +4,9 @@
 // Load Wi-Fi library
 #include <WiFi.h>
 
+// Replace with your network ID
+const char* ssid     = "ESP32-Access-Point-test";
+const char* password = "11122447766";
 
 void setup() {
   Serial.println("Setup start.. ");
