@@ -11,10 +11,14 @@ const char* password = "11122447766";
 // Set web server port number
 WiFiServer server(80);
 
+// Variable to store the HTTP request
+String header;
+
 void setup() {
   Serial.println("Setup start.. ");
   Serial.begin(115200);
 
+  Serial.println("Setup done");
 }
 
 void loop() {
