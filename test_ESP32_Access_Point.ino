@@ -27,6 +27,8 @@ void setup() {
   Serial.print("Access Point IP address is: ");
   Serial.println(IP);
 
+  server.begin();
+
   Serial.println("Setup done");
 }
 
