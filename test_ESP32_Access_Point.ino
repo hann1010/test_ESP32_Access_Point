@@ -23,6 +23,10 @@ void setup() {
   // Remove the password parameter, if you want the AP (Access Point) to be open
   WiFi.softAP(ssid, password);
 
+  IPAddress IP = WiFi.softAPIP();
+  Serial.print("Access Point IP address is: ");
+  Serial.println(IP);
+
   Serial.println("Setup done");
 }
 
