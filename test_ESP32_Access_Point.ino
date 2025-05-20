@@ -37,6 +37,7 @@ void loop() {
   WiFiClient client = server.available();
 
   // If a new client connects
-  Serial.println("New Client."); 
+  if (client) {
+    Serial.println("New Client."); 
 
 }
