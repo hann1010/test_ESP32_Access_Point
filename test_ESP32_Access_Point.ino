@@ -44,5 +44,7 @@ void loop() {
     while (client.connected()) {
       // if there's bytes to read from the client,
       if (client.available()) {
+        // read a byte, then
+        char c = client.read();
 
 }
