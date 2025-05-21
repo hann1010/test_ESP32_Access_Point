@@ -38,6 +38,7 @@ void loop() {
 
   // If a new client connects
   if (client) {
-    Serial.println("New Client."); 
+    Serial.println("New Client.");
+    String currentLine = "";
 
 }
