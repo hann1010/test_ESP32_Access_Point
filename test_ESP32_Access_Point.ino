@@ -46,5 +46,7 @@ void loop() {
       if (client.available()) {
         // read a byte, then
         char c = client.read();
+        Serial.write(c);
+        header += c;
 
 }
