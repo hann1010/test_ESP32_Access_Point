@@ -48,5 +48,7 @@ void loop() {
         char c = client.read();
         Serial.write(c);
         header += c;
+        // if the byte is a newline character
+        if (c == '\n') {
 
 }
