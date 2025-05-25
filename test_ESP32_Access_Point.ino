@@ -60,4 +60,7 @@ void loop() {
             client.println("Connection: close");
             client.println();
 
+
+            // palce for functional code
+
 }
