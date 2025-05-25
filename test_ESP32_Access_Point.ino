@@ -60,7 +60,8 @@ void loop() {
             client.println("Connection: close");
             client.println();
 
-
             // palce for functional code
+
+            // Display the HTML web page
 
 }
