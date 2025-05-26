@@ -63,5 +63,6 @@ void loop() {
             // palce for functional code
 
             // Display the HTML web page
+            client.println("<!DOCTYPE html><html>");
 
 }
