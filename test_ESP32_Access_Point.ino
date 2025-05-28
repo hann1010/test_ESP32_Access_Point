@@ -70,6 +70,6 @@ void loop() {
             // Feel free to change the background-color and font-size attributes to fit your preferences
             client.println("<style>html { font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}");
 
-            // Insert Web Page contest here
+            // Insert Web Page content here
 
 }
