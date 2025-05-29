@@ -74,5 +74,7 @@ void loop() {
 
             // Web Page Heading
             client.println("<body><h1>ESP32 test Web Server</h1>");
-
+            } else { // if you got a newline, then clear currentLine
+            currentLine = "";
+            }
 }
