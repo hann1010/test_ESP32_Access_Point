@@ -72,4 +72,7 @@ void loop() {
 
             // Insert Web Page content here
 
+            // Web Page Heading
+            client.println("<body><h1>ESP32 test Web Server</h1>");
+
 }
