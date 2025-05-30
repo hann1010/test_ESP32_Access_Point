@@ -70,10 +70,10 @@ void loop() {
             // Feel free to change the background-color and font-size attributes to fit your preferences
             client.println("<style>html { font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}");
 
-            // Insert Web Page content here
-
             // Web Page Heading
             client.println("<body><h1>ESP32 test Web Server</h1>");
+
+            // Insert Web Page content here
             
             client.println("</body></html>");
           }
