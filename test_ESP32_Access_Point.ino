@@ -76,6 +76,9 @@ void loop() {
             // Insert Web Page content here
             
             client.println("</body></html>");
+            
+            // The HTTP response ends with another blank line
+            client.println();
           }
         }
 }
