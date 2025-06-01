@@ -69,11 +69,14 @@ void loop() {
             // CSS to style the on/off buttons 
             // Feel free to change the background-color and font-size attributes to fit your preferences
             client.println("<style>html { font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}");
+            client.println("text-decoration: none; font-size: 30px; margin: 2px; cursor: pointer;}");
+            client.println("</style></head>");
 
             // Web Page Heading
             client.println("<body><h1>ESP32 test Web Server</h1>");
 
             // Insert Web Page content here
+            client.println("<p>Simple test page</p>");
             
             client.println("</body></html>");
             
