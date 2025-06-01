@@ -95,5 +95,7 @@ void loop() {
     header = "";
     // Close the connection
     client.stop();
-        }
+    Serial.println("Client disconnected.");
+    Serial.println("");
+  }
 }
