@@ -91,6 +91,8 @@ void loop() {
         }
       }
     }
+    // Clear the header variable
+    header = "";
     
         }
 }
